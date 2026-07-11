@@ -21,6 +21,7 @@ fn main() {
 
     let output_file_name = "my_first_image.png";
 
-    new_image.export(output_file_name);
+    new_image.export_image(output_file_name);
 
+    println!("Image saved successfully as '{}'!", output_file_name);
  }
